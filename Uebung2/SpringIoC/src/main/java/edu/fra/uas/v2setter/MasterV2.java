@@ -1,7 +1,7 @@
 package edu.fra.uas.v2setter;
 
 public class MasterV2 {
-    Journeyman journeyman;
+    Journeyman journeyman; 
 
     public void setJourneymanAndWork(Journeyman journeyman, Work work) {
         this.journeyman = journeyman;

@@ -5,11 +5,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Drilling implements Work{
+public class Cleaning implements Work {
     private static final Logger LOGGER = LoggerFactory.getLogger(Drilling.class);
 
-    
     public void doWork() {
-        LOGGER.info(" --> drill a hole into the wall");
+        LOGGER.info(" --> clean up the room");
     }
 }
