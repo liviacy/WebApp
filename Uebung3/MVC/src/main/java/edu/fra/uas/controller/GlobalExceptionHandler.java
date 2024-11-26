@@ -9,15 +9,15 @@ import org.springframework.web.servlet.ModelAndView;
 
 import jakarta.servlet.http.HttpServletRequest;
 
-import org.springframework.web.bind.MissingServletRequestParameterException;
+//import org.springframework.web.bind.MissingServletRequestParameterException;
 
 @ControllerAdvice
 public class GlobalExceptionHandler {
     
     private final Logger log = org.slf4j.LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
-    @ExceptionHandler(MissingServletRequestParameterException.class)
-    public ModelAndView handleMissingParams(HttpServletRequest req, MissingServletRequestParameterException exception) {
+    @ExceptionHandler(Exception.class)
+    public ModelAndView handleMissingParams(HttpServletRequest req, Exception exception) {
         log.debug("handleMissingParams() is called");
 		
 		ModelAndView mav = new ModelAndView();

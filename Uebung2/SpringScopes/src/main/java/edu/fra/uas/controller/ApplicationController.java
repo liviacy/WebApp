@@ -17,7 +17,6 @@ public class ApplicationController {
 	@Autowired
 	ApplicationContext applicationContext;
 	
-	public ApplicationController() {}
 	
 	@RequestMapping(value = "/path1")
 	public String showPage1() {

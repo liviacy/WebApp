@@ -9,7 +9,7 @@ import edu.fra.uas.v2setter.Journeyman;
 import edu.fra.uas.v2setter.MasterV2;
 
 // v3autowired
-import edu.fra.uas.v3autowired.MasterV3;
+//import edu.fra.uas.v3autowired.MasterV3;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
